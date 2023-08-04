@@ -5,3 +5,12 @@
   text-align: center;
   text-decoration: none;
 }
+
+grey {
+  color: #777;
+}
+
+ul, li {
+  list-style: none;
+  padding: 5;
+}
