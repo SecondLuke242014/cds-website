@@ -4,13 +4,14 @@
   font-family: 'Source Sans 3','sans-serif';
   text-align: center;
   text-decoration: none;
+  color: white
 }
 
 grey {
   color: #777;
 }
 
-ul {
+nav, nav li {
   list-style: none;
   padding: 5;
 }
