@@ -5,7 +5,7 @@
   <body>
     <link rel='stylesheet' href='static/style.css'>
     <nav>
-      <ul style='background:#f00'>
+      <ul>
         <div class='logo'>SecondLuke242014</div>
         <li><a href='{{ page.root }}'>Home</a></li>
         <li><a href='{{ page.root }}/helpwithscripts'>Help with scripts</a></li>
@@ -15,6 +15,9 @@
     </nav>
     {{ content }}
     <p style='padding:5;background:#f00'>&copy; Copyright By SecondLuke242014, Do not Distribute!<br>
-    <a href='github.com/SecondLuke242014/secondluke242014.github.io/issues'>Report an issue</a><a href='asumayan@gmail.com'>Contact Us</a></p>
+    <div style='background:#f00'>
+      <p>&copy; Copyright by SecondLuke242014, Do Not Distribute!</p><br>
+      <a href='github.com/secondluke242014/secondluke242014.github.io/issues'>Report Broken Links</a>|<a href='{{ page.root }}/contact'>Contact Us</a>
+    </div>
   </body>
 </html>
