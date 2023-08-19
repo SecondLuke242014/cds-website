@@ -10,7 +10,7 @@ grey {
   color: #777;
 }
 
-ul {
+ul, li {
   list-style: none;
   display: inline-block;
 }
