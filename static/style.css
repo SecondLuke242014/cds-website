@@ -24,3 +24,21 @@ hr {
 li {
   padding: 5 10;
 }
+
+logo {
+  font-size: 50px;
+}
+
+button {
+  padding: 5 10;
+  background: green;
+}
+
+textarea {
+  background: white;
+}
+
+input {
+  background: white;
+  padding: 5 10;
+}
