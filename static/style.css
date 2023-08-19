@@ -10,7 +10,7 @@ grey {
   color: #777;
 }
 
-ul, ul li {
+ul {
   list-style: none;
   display: inline-block;
 }
@@ -19,4 +19,8 @@ hr {
   border-width: 0;
   background: white;
   height: 2px;
+}
+
+li {
+  padding: 5 10;
 }
