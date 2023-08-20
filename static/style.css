@@ -10,7 +10,7 @@ grey {
   color: #777;
 }
 
-ul, li {
+ul, ul li {
   list-style: none;
   display: inline-block;
 }
@@ -21,8 +21,12 @@ hr {
   height: 2px;
 }
 
-li {
-  padding: 5 10;
+li a {
+  padding: 5 10px;
+}
+
+a:hover {
+  color: #0ef
 }
 
 logo {
@@ -36,9 +40,10 @@ button {
 
 textarea {
   background: white;
+  color: black;
 }
 
 input {
   background: white;
-  padding: 5 10;
+  padding: 5 10px;
 }
