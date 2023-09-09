@@ -64,10 +64,10 @@ details {
 }
 
 details > summary {
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid white;
   font-size: 30px;
 }
 
 details > summary:hover {
-  border-bottom: 1px solid red;
+  border-bottom: 3px solid red;
 }
