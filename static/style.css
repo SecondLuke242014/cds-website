@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+/* The base */
+
 * {
   background: #9d3982;
   font-family: 'Source Sans 3','sans-serif';
@@ -52,4 +55,19 @@ textarea {
 input {
   background: white;
   padding: 5 10px;
+}
+
+/* details */
+
+details {
+  margin: 10px;
+}
+
+details > summary {
+  border-bottom: 1px solid black;
+  font-size: 30px;
+}
+
+details > summary:hover {
+  border-bottom: 1px solid red;
 }
