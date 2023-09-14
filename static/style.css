@@ -50,9 +50,12 @@ textarea {
 
 input {
   background: white;
-  padding: 5 10px;
+  padding: 5 55px;
 }
 
+input[type=submit] {
+  background: blue;
+}
 /* details */
 
 details {
@@ -69,6 +72,10 @@ details > summary:hover {
 }
 
 /* a */
+
+li > a {
+  color: white;
+}
 
 a {
   color: #0af;
