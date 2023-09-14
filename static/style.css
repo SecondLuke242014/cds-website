@@ -13,7 +13,7 @@ grey {
   color: #777;
 }
 
-ul > li {
+ul, ul li {
   list-style: none;
   display: inline-block;
   padding: 0;
