@@ -13,7 +13,7 @@ grey {
   color: #777;
 }
 
-ul,ul li {
+ul > li {
   list-style: none;
   display: inline-block;
   padding: 0;
@@ -26,16 +26,12 @@ hr {
   height: 2px;
 }
 
-li a {
+li > a {
   padding: 5 10px;
 }
 
 li {
   padding: 10px;  
-}
-
-a:hover {
-  color: #0ef
 }
 
 logo {
@@ -71,3 +67,19 @@ details > summary {
 details > summary:hover {
   border-bottom: 3px solid red;
 }
+
+/* a */
+
+a {
+  color: #0af;
+}
+
+a:hover {
+  color: #0ef;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0bf;
+}
+
