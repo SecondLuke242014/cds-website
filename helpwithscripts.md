@@ -1,2 +1,2 @@
 # Help With Scripts
-If you want any assistance, go to the [contact us page](/contact).
+If you want any assistance, go to the [contact us page]({{ page.root }}/contact).
