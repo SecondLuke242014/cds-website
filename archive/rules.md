@@ -3,8 +3,9 @@ layout: default
 title: Rules
 ---
 
-<h1></h1>
-<a href='../'>Go back to archive<a>
+<h1>Guidelines</h1>
+<a href='../'>Go back to archive<a><br>
+<a href='#safety'>Game Safety</a>
 
 <details>
   <summary>Rules of being in ROBLOX</summary>
@@ -27,5 +28,5 @@ title: Rules
   </ol>
 
 <h1 id="safety">Game Safety</h1>
-If anything happens, send a report to us in <a href="mailto:e87624273@gmail.com?subject=Player%20Report">e87624273@gmail.com</a>.
-
+If anything happens, send a report to us in <a href="mailto:e87624273@gmail.com?subject=Player%20Report">e87624273@gmail.com</a>.<br>
+<a href='#'>Back to top</a>
