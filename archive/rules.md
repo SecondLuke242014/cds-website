@@ -1,4 +1,9 @@
-# Rules
+---
+layout: default
+title: Rules
+---
+
+<h1></h1>
 <a href='../'>Go back to archive<a>
 
 <details>
@@ -9,9 +14,7 @@
     <LI>BE RESPECTFUL</LI>
   </ol>
 </details>
-<details>
-  <summary>Guidelines in menameismoo234's games</summary>
-  <ol>
+<ol>
     <li>BE POLITE<br>Keep the game friendly and do not make the game for bullies.</li>
     <li>ENJOY YOUR EXPERIENCE<br>If you enjoy our games in ROBLOX, please give us your feedback.</li>
     <li>PROTECT EVERYONE<br>If your friends are bullied, report the bully to ROBLOX.</li>
@@ -20,6 +23,9 @@
     <li>NO SAYING DISRESPECTFUL, SEX AND BAD WORDS<br>Say good words, and if anyone say any disrespectful/sex/bad words, report it to roblox.</li>
     <li>DO NOT DISCUSS INAPPROPRIATE CONTENT<br>If you say so, you could get banned.</li>
     <li>DO NOT SCAM PEOPLE<br>If you say scam links so, you could get banned.</li>
-    <li>ANY RULE VOILATION WILL BE WARNED/SUSPSENDED TO THE PLAYER'S OFFENSE<br>If you violate any rule, the game administrator will warn/suspend the player.</li>
+    <li>ANY RULE VOILATION WILL BE WARNED/SUSPENDED TO THE PLAYER'S OFFENSE<br>If you violate any rule, the game administrator will warn/suspend the player.</li>
   </ol>
-</details>
+
+<h1 id="safety">Game Safety</h1>
+If anything happens, send a report to us in <a href="mailto:e87624273@gmail.com?subject=Player%20Report">e87624273@gmail.com</a>.
+
