@@ -24,7 +24,7 @@ title: Rules
     <li>NO SAYING DISRESPECTFUL, SEX AND BAD WORDS<br>Say good words, and if anyone say any disrespectful/sex/bad words, report it to roblox.</li>
     <li>DO NOT DISCUSS INAPPROPRIATE CONTENT<br>If you say so, you could get banned.</li>
     <li>DO NOT SCAM PEOPLE<br>If you say scam links so, you could get banned.</li>
-    <li>ANY RULE VOILATION WILL BE WARNED/SUSPENDED TO THE PLAYER'S OFFENSE<br>If you violate any rule, the game administrator will warn/suspend the player.</li>
+    <li>ANY RULE VIOLATION WILL BE WARNED/SUSPENDED TO THE PLAYER'S OFFENSE<br>If you violate any rule, the game administrator will warn/suspend the player.</li>
   </ol>
 
 <h1 id="safety">Game Safety</h1>
