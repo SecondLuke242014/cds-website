@@ -4,6 +4,7 @@
 
 * {
   background: #9d3982;
+  box-sizing: border-box;
   font-family: 'Source Sans 3','sans-serif';
   text-decoration: none;
   color: white;
@@ -86,3 +87,7 @@ a:hover {
   text-decoration: underline;
 }
 
+code {
+  background: #777;
+  color: black;
+}
