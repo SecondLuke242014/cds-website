@@ -9,5 +9,5 @@ These are the things that you wanted for.
 Yes, but the moderation does nothing.<br>
 And also, please do not bypass the chat filter.
 
-# Should I use Roblox Studio's beta features
+# Should I use Roblox Studio's beta features?
 Yes, but some are for everyone.
