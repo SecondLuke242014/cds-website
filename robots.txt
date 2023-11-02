@@ -1,0 +1,2 @@
+User-agent: CDS_SYSTEM
+Allow: /
