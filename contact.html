@@ -4,3 +4,17 @@ title: Contact Us
 ---
 
 <h1>Contact Us</h1>
+
+<h2>Want to get help?</h2>
+For business inquiries, my email is <button id='show'>show</button>
+<a href='mailto:e87624273@gmail.com' style='display:none' id='mail'>e87624273@gmail.com</a>
+
+<script>
+  var show = document.getElementById('show')
+  var mail = document.getElementById('mail')
+
+  show.addEventListener('click',function(){
+    show.style.display = 'none'
+    mail.style.display = 'inline'
+  })
+</script>
