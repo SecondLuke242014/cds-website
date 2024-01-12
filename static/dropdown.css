@@ -1,3 +1,23 @@
+dropdown {
+  position: relative;
+}
+
 dropdown::after {
   content:"🔽";
 }
+
+dropdown content {
+  display: none;
+  position: absolute;
+  background: #f00;
+  padding: 10px;
+}
+
+dropdown:hover content {
+  display: block;
+}
+
+dropdown content a {
+  display: block
+}
+
