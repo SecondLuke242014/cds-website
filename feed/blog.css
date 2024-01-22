@@ -1,12 +1,28 @@
 /*
 (C) Copyright by The Luke242014 Open Source Project. (R) All rights reserved.
-RSS V1
+BLOG.CSS V1
 */
 
 name {
   display: block;
   font-weight: bold;
   font-size: 50px;
+}
+
+author {
+  display: block;
+}
+
+author::before {
+  content: "by ";
+}
+
+date {
+  display: block;
+}
+
+date::before {
+  content: "posted by ";
 }
 
 description {
