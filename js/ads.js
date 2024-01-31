@@ -1,1 +1,2 @@
-var ad = document,P.
+var adImage = document.getElementById("adImage")
+var assetsadspath = "assets/ads/"
