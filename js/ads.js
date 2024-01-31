@@ -1,0 +1,1 @@
+var ad = document,P.
