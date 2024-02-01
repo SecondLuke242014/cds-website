@@ -5,4 +5,4 @@ var ads = [
   "ad2.png";
 ];
 
-adImage.src = ads[Math.floor(Math.random() * ads.length)];
+adImage.src = assetsadspath + ads[Math.floor(Math.random() * ads.length)];
