@@ -1,5 +1,5 @@
 var adImage = document.getElementById("adImage");
-var assetsadspath = "assets/ads/";
+var assetsadspath = "/cds-website/assets/ads/";
 var ads = [
   "ad1.png",
   "ad2.png"
