@@ -6,7 +6,21 @@ layout: default
 <p>This is exactly created for FUN!</p>
 <p id='jokes'></p>
 <input type='text' id='ans' placeholder='Type the answer here...'>
-<button id='ok'></button>
+<button id='ok'>OK</button>
 <script>
-  
+  const listofjokes = [
+    'Why did the chicken cross the road?';
+    'Why did dthe strawberry cry?';
+    'Why did the frog ate an insect?';
+  ];
+  var jokes = document.getElementByID('jokes');
+  const randjoke = Math.floor(Math.random() * listofjokes.length);
+  var ans = document.getElementByID('ans');
+  var ok = document.getElementByID('ok')
+  jokes.innerHTML = randjoke;
+  ok.addEventListener('click',function(){
+    if (ans.length !== 0) {
+       jokes.innerHTML = randjoke;
+    };
+  });
 </script>
