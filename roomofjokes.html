@@ -13,14 +13,34 @@ layout: default
     'Why did dthe strawberry cry?';
     'Why did the frog ate an insect?';
   ];
+  const wrong = [
+    'Son, please type the answer.';
+    'Do you want to be kicked?';
+    'Man, i\'ll kick you.';
+    'I will not tell jokes if you keep doing this.';
+    'GO TO HELL';
+    'KEEP DOING IT AND DON\'T LISTEN!!! >:(';
+    'WHY WHY WHY';
+    'I\'M SICK OF THIS!!!!!!!!!'
+    'Man, you will now get out.';
+    'THIS IS YOUR LAST WARNING YOU KEEP DOING THIS YOU WILL BE KICKED!';
+    'I\'m now tired of it...';
+  ];
   var jokes = document.getElementByID('jokes');
   const randjoke = Math.floor(Math.random() * listofjokes.length);
   var ans = document.getElementByID('ans');
-  var ok = document.getElementByID('ok')
-  jokes.innerHTML = jokes[randjoke];
+  var ok = document.getElementByID('ok');
+  var windex = 0;
+  jokes.innerHTML = listofjokes[randjoke];
   ok.addEventListener('click',function(){
-    if (ans.length !== 0) {
-       jokes.innerHTML = jokes[randjoke];
+    if (ans.value.length == 0) {
+      windex++;
+      if (windex > wrong.length) {
+        window.location.href = 'https://secondluke242014.github.io/';
+      };
+      alert(wrong[windex]);
+    } else {
+      jokes.innerHTML = listofjokes[randjoke];
     };
   });
 </script>
