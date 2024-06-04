@@ -17,10 +17,10 @@ layout: default
   const randjoke = Math.floor(Math.random() * listofjokes.length);
   var ans = document.getElementByID('ans');
   var ok = document.getElementByID('ok')
-  jokes.innerHTML = randjoke;
+  jokes.innerHTML = jokes[randjoke];
   ok.addEventListener('click',function(){
     if (ans.length !== 0) {
-       jokes.innerHTML = randjoke;
+       jokes.innerHTML = jokes[randjoke];
     };
   });
 </script>
