@@ -8,12 +8,12 @@ layout: default
 <input type='text' id='ans' placeholder='Type the answer here...'>
 <button id='ok'>OK</button>
 <script>
-  const listofjokes = [
+  var listofjokes = [
     'Why did the chicken cross the road?';
     'Why did dthe strawberry cry?';
     'Why did the frog ate an insect?';
   ];
-  const wrong = [
+  var wrong = [
     'Son, please type the answer.';
     'Do you want to be kicked?';
     'Man, i\'ll kick you.';
@@ -32,20 +32,20 @@ layout: default
   var jindex = 0;
   var windex = 0;
   jindex++;
-  jokes.innerHTML = listofjokes[jindex];
+  jokes.innerHTML = toString(listofjokes[jindex]);
   ok.addEventListener('click',function(){
-    if (ans.value.length == 0) {
+    if (ans.value.length != 0) {
+      jokes.innerHTML = toString(listofjokes[jindex]);
+      if (jindex > listofjokes.length) {
+        jindex = 1;
+        jokes.innerHTML = toString(listofjokes[jindex]);
+      };
+    } else {
       windex++;
       if (windex > wrong.length) {
         window.location.href = 'https://secondluke242014.github.io/';
       };
       window.alert(toString(wrong[windex]));
-    } else {
-      jokes.innerHTML = listofjokes[jindex];
-      if (jindex > listofjokes.length) {
-        jindex = 1;
-        jokes.innerHTML = listofjokes[jindex];
-      };
     };
   });
 </script>
