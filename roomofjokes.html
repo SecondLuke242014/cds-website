@@ -32,20 +32,20 @@ layout: default
   var jindex = 0;
   var windex = 0;
   jindex++;
-  jokes.innerHTML = listofjokes[jindex]
+  jokes.innerHTML = listofjokes[jindex];
   ok.addEventListener('click',function(){
     if (ans.value.length == 0) {
-      windex++
+      windex++;
       if (windex > wrong.length) {
-        window.location.href = 'https://secondluke242014.github.io/'
-      }
-      window.alert(wrong[windex])
+        window.location.href = 'https://secondluke242014.github.io/';
+      };
+      window.alert(toString(wrong[windex]));
     } else {
       jokes.innerHTML = listofjokes[jindex];
       if (jindex > listofjokes.length) {
-        jindex = 1
-        jokes.innerHTML = listofjokes[jindex]
-      }
-    }
-  })
+        jindex = 1;
+        jokes.innerHTML = listofjokes[jindex];
+      };
+    };
+  });
 </script>
