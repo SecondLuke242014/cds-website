@@ -12,7 +12,7 @@ layout: default
     'Why did the chicken cross the road?';
     'Why did dthe strawberry cry?';
     'Why did the frog ate an insect?';
-  ];
+  ]
   const wrong = [
     'Son, please type the answer.';
     'Do you want to be kicked?';
@@ -25,27 +25,27 @@ layout: default
     'Man, you will now get out.';
     'THIS IS YOUR LAST WARNING YOU KEEP DOING THIS YOU WILL BE KICKED!';
     'I\'m now tired of it...';
-  ];
-  var jokes = document.getElementById('jokes');
-  var ans = document.getElementById('ans');
-  var ok = document.getElementById('ok');
-  var jindex = 0;
-  var windex = 0;
-  jindex++;
-  jokes.innerHTML = listofjokes[jindex];
+  ]
+  var jokes = document.getElementById('jokes')
+  var ans = document.getElementById('ans')
+  var ok = document.getElementById('ok')
+  var jindex = 0
+  var windex = 0
+  jindex++
+  jokes.innerHTML = listofjokes[jindex]
   ok.addEventListener('click',function(){
     if (ans.value.length == 0) {
-      windex++;
+      windex++
       if (windex > wrong.length) {
-        window.location.href = 'https://secondluke242014.github.io/';
-      };
-      window.alert(wrong[windex]);
+        window.location.href = 'https://secondluke242014.github.io/'
+      }
+      window.alert(wrong[windex])
     } else {
       jokes.innerHTML = listofjokes[jindex];
       if (jindex > listofjokes.length) {
-        jindex = 1;
-        jokes.innerHTML = listofjokes[jindex];
-      };
-    };
-  });
+        jindex = 1
+        jokes.innerHTML = listofjokes[jindex]
+      }
+    }
+  })
 </script>
