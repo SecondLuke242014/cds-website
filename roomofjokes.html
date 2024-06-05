@@ -27,11 +27,12 @@ layout: default
     'I\'m now tired of it...';
   ];
   var jokes = document.getElementByID('jokes');
-  const randjoke = Math.floor(Math.random() * listofjokes.length);
   var ans = document.getElementByID('ans');
   var ok = document.getElementByID('ok');
+  var jindex = 0;
   var windex = 0;
-  jokes.innerHTML = listofjokes[randjoke];
+  jindex++;
+  jokes.innerHTML = listofjokes[jindex];
   ok.addEventListener('click',function(){
     if (ans.value.length == 0) {
       windex++;
@@ -40,7 +41,11 @@ layout: default
       };
       alert(wrong[windex]);
     } else {
-      jokes.innerHTML = listofjokes[randjoke];
+      jokes.innerHTML = listofjokes[jindex];
+      if (jindex > listofjokes.length) {
+        jindex = 1;
+        jokes.innerHTML = listofjokes[jindex];
+      }
     };
   });
 </script>
