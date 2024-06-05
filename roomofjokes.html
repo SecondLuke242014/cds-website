@@ -26,9 +26,9 @@ layout: default
     'THIS IS YOUR LAST WARNING YOU KEEP DOING THIS YOU WILL BE KICKED!';
     'I\'m now tired of it...';
   ];
-  var jokes = document.getElementByID('jokes');
-  var ans = document.getElementByID('ans');
-  var ok = document.getElementByID('ok');
+  var jokes = document.getElementById('jokes');
+  var ans = document.getElementById('ans');
+  var ok = document.getElementById('ok');
   var jindex = 0;
   var windex = 0;
   jindex++;
@@ -45,7 +45,7 @@ layout: default
       if (jindex > listofjokes.length) {
         jindex = 1;
         jokes.innerHTML = listofjokes[jindex];
-      }
+      };
     };
   });
 </script>
