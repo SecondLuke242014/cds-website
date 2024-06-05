@@ -34,7 +34,7 @@ layout: default
   jindex++;
   jokes.innerHTML = toString(listofjokes[jindex]);
   ok.addEventListener('click',function(){
-    if (ans.value.length != 0) {
+    if (ans.value != "") {
       jokes.innerHTML = toString(listofjokes[jindex]);
       if (jindex > listofjokes.length) {
         jindex = 1;
