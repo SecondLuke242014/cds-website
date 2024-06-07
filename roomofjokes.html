@@ -6,7 +6,7 @@ layout: default
 <p>This is exactly created for FUN!</p>
 <p id='jokes'></p>
 <input type='text' id='ans' placeholder='Type the answer here...'>
-<button id='ok'>OK</button>
+<button id='ok' onclick="next()">OK</button>
 <script>
   var listofjokes = [
     'Why did the chicken cross the road?';
@@ -17,14 +17,14 @@ layout: default
   var ans = document.getElementById('ans');
   var ok = document.getElementById('ok');
   var jindex = 0;
-  jindex++;
+  jindex = 1;
   jokes.innerHTML = toString(listofjokes[jindex]);
-  ok.addEventListener('click',function(){
+  next() {
     jindex++;
     jokes.innerHTML = toString(listofjokes[jindex]);
       if (jindex > listofjokes.length) {
         jindex = 1;
         jokes.innerHTML = toString(listofjokes[jindex]);
       };
-  });
+  };
 </script>
