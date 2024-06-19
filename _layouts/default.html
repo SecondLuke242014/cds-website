@@ -7,6 +7,17 @@
     <script>
       console.log("%cSTOP!","font-size:30px;color:red;")
       console.log("This is your browser's development tools, don't paste code that you don't understand and don't modify data (like CDCredits).")
+      let currentDay = new Date().getDay();
+      if (document.cookie == null) {
+        document.cookie = {credits:0;day:0};
+      }
+      if (document.cookie.day !== currentDay) {
+        document.cookie.day = currentDay;
+        document.cookie.credits += 3;
+      };
+      function isenough(price) { // Checks if the credits are equal or higher than the price
+        return document.cookie.credits >= price;
+      };
     </script>
   </head>
   <body>
@@ -24,6 +35,7 @@
     <main>
       <p><b><i>CD</i></u></b>Credits<br>You get 3+ when you visit the site for a day!</p>
       <p><b><i>NOTE:</i></b> This site uses cookies, if cookies are disabled then you will lose your data.</p>
+      <p id='credits'>Error loading credits</p>
       {{ content }}
     </main><br>
     <grey>&copy; Copyright By SecondLuke242014. All rights reserved.</grey>
