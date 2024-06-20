@@ -9,16 +9,14 @@
       console.log("This is your browser's development tools, don't paste code that you don't understand and don't modify data (like CDCredits).")
       let currentDay = new Date().getDay();
       let credits = document.getElementById("credits");
+      document.cookie = {credits:0;day:0};
       if (document.cookie == null) {
-        document.cookie = {credits:0;day:0};
+          credits.innerHTML = "Error loading credits";
       }
       if (document.cookie.day !== currentDay) {
         document.cookie.day = currentDay;
         document.cookie.credits += 3;
-        credits.innerHTML = "<b><i>CD</i></b>Credits: "+document.cookie.credits;
-        if (document.cookie == null) {
-          credits.innerHTML = "Error loading credits";
-        }
+        credits.innerHTML = "<b><i>CD</i></b>Credits: "+document.cookie.credits
       };
       function isenough(price) { // Checks if the credits are equal or higher than the price
         return document.cookie.credits >= price;
